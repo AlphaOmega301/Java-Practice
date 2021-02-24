@@ -1,0 +1,13 @@
+package carfactory;
+
+public class CarFactoryTest {
+
+	public static void main(String[] args) {
+		CarFactory factory = CarFactory.getInstance();	//CarFactory에서 인스턴스 구현
+		Car mySonata = factory.createCar();				//factory 안에 createCar 함수 필요
+		Car yourSonata = factory.createCar();			//createCar 함수는 new Car
+		System.out.println(mySonata.getCarNum());		//
+		System.out.println(yourSonata.getCarNum());
+	}
+
+}

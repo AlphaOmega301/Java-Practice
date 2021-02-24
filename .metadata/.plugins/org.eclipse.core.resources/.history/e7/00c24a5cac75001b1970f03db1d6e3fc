@@ -1,0 +1,10 @@
+package array;
+
+public class Student {
+	String studentID;
+	String name;
+	
+	public void showStudentInfo() {
+		System.out.println("Name is " + name + ". and ID is " + studentID +".");
+	}
+}

@@ -1,0 +1,15 @@
+package carfactory;
+
+public class Car {
+	public static int serialNum = 1000;
+	public int CarNum;
+	
+	public void setCarNum() {
+		serialNum++;
+		CarNum = serialNum;
+	}
+	
+	public int getCarNum() {
+		return CarNum;
+	}
+}

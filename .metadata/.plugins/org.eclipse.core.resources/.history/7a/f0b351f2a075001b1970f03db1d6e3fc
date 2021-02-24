@@ -1,0 +1,19 @@
+package carfactory;
+
+public class Car {
+	public static int serialNum = 1000;
+	public int CarNum;
+	
+	public void Car1() {
+		serialNum++;
+		CarNum = serialNum;
+	}
+	
+	public int getCarNum() {
+		return CarNum;
+	}
+	
+	public void setCarNum(int carNum) {
+		this.CarNum = carNum;
+	}
+}

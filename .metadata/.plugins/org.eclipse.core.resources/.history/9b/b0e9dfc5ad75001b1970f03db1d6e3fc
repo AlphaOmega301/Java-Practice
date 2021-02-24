@@ -1,0 +1,7 @@
+package array;
+
+public class StudentArray {
+	Student[] study = new Student[3];
+	
+	student[0] = new Student(1001, "James");
+}
